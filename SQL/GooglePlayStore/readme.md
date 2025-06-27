@@ -4,13 +4,13 @@ An SQL exploration of the Google Play Store app marketplace. We clean raw data, 
 
 ---
 
-## Repository Structure
+## 1. Data Cleaning
 
-/queries
-├── androidmarket_cleaning.sql # Data-cleanup scripts
-├── avg_rating_by_category.sql # Q1: Average rating by category
-├── free_vs_paid_ratings.sql # Q2: Paid vs. free app ratings
-├── size_vs_rating.sql # Q3: App size vs. rating
-├── review_count_vs_rating.sql # Q4: Reviews vs. rating correlation
-├── reviews_vs_downloads.sql # Q5: Reviews vs. downloads correlation
-└── avg_sentiment_by_category.sql # Q6: Sentiment by category
+All cleaning steps live in **androidmarket_cleaning.sql**:
+
+1. **Normalize app size**  
+   - Converted mixed “k”/“M” units into a `size_mb` float column.  
+2. **Installs → numeric**  
+   - Stripped commas and “+” from `installs`, cast to `installs_int`.  
+3. **Price → numeric**  
+   - Removed “$” sign and cast `price` to `DECIMAL(5,2)`.
