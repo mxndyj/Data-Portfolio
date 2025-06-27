@@ -22,21 +22,21 @@ All cleaning steps in **queries/androidmarket_cleaning.sql**:
 - **Script:** `avg_rating_by_category.sql`  
 - **Why it matters:** Helps product teams focus on segments with the happiest users.  
 - **Insight:**  
-  - **Education** leads at **4.39 ± 0.25**—a small niche with consistently high satisfaction.  
+  - **Education** leads at **4.39 ± 0.25**, a small niche with consistently high satisfaction.  
   - **Games** average **4.29 ± 0.37** but with wider swings, meaning only standout titles rise above the noise.  
 
 ### Q2: Do paid apps get better ratings than free ones?  
 - **Script:** `free_vs_paid_ratings.sql`  
-- **Why it matters:** Informs monetization strategy—does charging upfront correlate with happier users?  
+- **Why it matters:** Informs monetization strategy, does charging upfront correlate with happier users?  
 - **Insight:**  
   - Paid apps average **4.27★** (647 titles) vs. **4.19★** (8 719 free apps).  
-  - A small 0.08-star gap suggests a slight edge for paid apps, though many “free” apps use in-app purchases.  
+  - A small 0.08 star gap suggests a slight edge for paid apps, though many “free” apps use in-app purchases.  
 
 ### Q3: How do app sizes impact ratings?  
 - **Script:** `size_vs_rating.sql`  
 - **Why it matters:** Determines if users reward “premium” (larger) apps or prefer lightweight experiences.  
 - **Insight:**  
-  - **> 50 MB** apps score **4.28 ± 0.39**—likely well-built games or professional tools.  
+  - **> 50 MB** apps score **4.28 ± 0.39**, likely well-built games or professional tools.  
   - **10–50 MB** apps average **4.18**, but show more variability.  
   - **< 10 MB** lag at **4.13 ± 0.60**, spanning simple utilities to under-maintained experiments.  
 
