@@ -45,7 +45,7 @@ In this section, we will look into the raw trends and visualizations.
 -**What it shows:** Adoption outcomes has the longest average stays as shown in Chart A. In Chart B we will look more into adoption
 ![ChartA](https://github.com/user-attachments/assets/5d9a311d-38ba-49e5-b2fe-9a9f33a54c6d)
 ![ChartB](https://github.com/user-attachments/assets/50268d9f-97b4-444a-825b-e28eccae068e)
-- **What it shows:** Young livestock wait the longest (≈70 days), with baby livestock next (≈53 days). Senior birds average ≈42 days, and senior cats/dogs sit around 35–38 days—well above the overall adoption mean of 33 days.  
+- **What it shows:** Young livestock wait the longest (≈70 days), with baby livestock next (≈53 days). Senior birds average ≈42 days, and senior cats/dogs sit around 35–38 days which is well above the overall adoption mean of 33 days.  
 - **Why it matters:** These long-stay cohorts create the biggest capacity bottlenecks, we can focus on solutions to lower the stay average, for example promotions for adopting or making it more convenient to adopt. 
   
 ### 3.5 Breed-Specific Trends  
