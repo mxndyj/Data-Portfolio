@@ -30,7 +30,7 @@ In this section, we will look into the raw trends and visualizations.
 ![Monthly Intake Trends](https://github.com/user-attachments/assets/d65ad99f-4e6b-406f-87c5-3479a2498ee0)
 - **What it shows:** A pronounced spike in intakes each May–June (2,000+ animals), with a smaller bump in October.  
 - **Why it matters:** Shelter can start adjusting staff and volunteers hours in late April to maintain peak support through July, then taper off in August.
-- 
+  
 ### 3.2 Day-of-Week Patterns
 ![Image](https://github.com/user-attachments/assets/e8200975-c02c-4445-a21c-41fd66b53479)
 - **What it shows:** Mondays are busiest (~19,000 intakes across the years), Sundays are the quietest (~15,500).  
