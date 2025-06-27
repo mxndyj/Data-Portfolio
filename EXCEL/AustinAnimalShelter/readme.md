@@ -26,7 +26,24 @@ To work around this, I used MINIFS to return the very next outcome date for each
 
 ## 3. Exploratory Analysis
 In this section, we will look into the raw trends and visualizations. 
+### 3.1 Monthly Intake Trends  
+![Monthly Intake Trends](https://github.com/user-attachments/assets/d65ad99f-4e6b-406f-87c5-3479a2498ee0)
+- **What it shows:** A pronounced spike in intakes each May–June (2,000+ animals), with a smaller bump in October.  
+- **Why it matters:** Shelter can start adjusting staff and volunteers hours in late April to maintain peak support through July, then taper off in August.
+- 
+### 3.2 Day-of-Week Patterns
+![Image](https://github.com/user-attachments/assets/e8200975-c02c-4445-a21c-41fd66b53479)
+- **What it shows:** Mondays are busiest (~19,000 intakes across the years), Sundays are the quietest (~15,500).  
+- **Why it matters:** Shelter can schedule extra intake and transport teams on busier days.
 
+### 3.3 Species Breakdown  
+![Image](https://github.com/user-attachments/assets/d65ad99f-4e6b-406f-87c5-3479a2498ee0)
+- **What it shows:** Dogs, Cats, and Other species each account for ~44% adoption rates; Birds slightly higher at 47%; Livestock lag at 38%.  
+- **Why it matters:** Livestock face the lowest adoption and highest euthanasia—target transfer agreements. 
 
+### 3.4 Stay Duration Distribution  
+![Image](https://github.com/user-attachments/assets/4bd9a5ff-d1a5-4193-b8bb-7b7072c150cf)
+- **What it shows:** Adoption cases average 33 days; Return-to-Adopt 19 days; Transfers 9 days; Euthanasia and Return-to-Owner under 6 days.  
+- **Why it matters:** Focus foster and adoption drives on cases with longest stays (Adoption and Return-to-Adopt) to free up capacity.
 
-
+- 
