@@ -6,7 +6,7 @@ An SQL exploration of the Google Play Store app marketplace. We clean raw data, 
 
 ## Repository Structure
 
-/SQL
+/queries
 ├── androidmarket_cleaning.sql # Data-cleanup scripts
 ├── avg_rating_by_category.sql # Q1: Average rating by category
 ├── free_vs_paid_ratings.sql # Q2: Paid vs. free app ratings
