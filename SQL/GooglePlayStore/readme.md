@@ -62,4 +62,7 @@ All cleaning steps in **queries/androidmarket_cleaning.sql**:
 
 ---
 
+Tableau:
+https://public.tableau.com/views/Googleplaystore_17515863739210/AverageAppRatingbyCategory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 *Dataset source: L. Gupta, "Google Play Store Apps," Feb 2019. [Online]. Available: https://www.kaggle.com/lava18/google-play-store-apps
