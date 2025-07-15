@@ -1,0 +1,5 @@
+--What is the Cartesian Product of the writers’ cities and 
+--the publishers’ cities? Show only the unique pairings.
+
+select DISTINCT writer.city, publisher.city
+from mccann.writer, mccann.publisher;

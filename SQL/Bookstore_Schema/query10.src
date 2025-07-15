@@ -1,0 +1,7 @@
+-- What are the full names, and quantities of books written, 
+-- of the writers who have authored (including coauthoring) at least two books?
+
+select w.givenname, w.surname, COUNT(a.isbn13) AS bookcount
+from mccann.writer w join mccann.authorship a ON w.wid = a.aid
+GROUP BY w.givenname, w.surname
+HAVING COUNT(a.isbn13) >= 2;

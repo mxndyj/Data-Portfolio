@@ -1,0 +1,6 @@
+-- (You must use JOIN for this query.) 
+-- What are the titles of the ebooks encoded in azw3?
+
+select title 
+from mccann.book b join mccann.encoding e ON (b.isbn13=e.isbn13) 
+where e.format ='azw3';

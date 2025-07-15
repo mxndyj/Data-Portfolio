@@ -1,0 +1,6 @@
+-- What are the full names (given and surnames) 
+-- of the writers who live in California (CA)?
+
+select givenname, surname
+from mccann.writer
+where state= 'CA';

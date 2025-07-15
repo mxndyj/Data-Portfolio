@@ -1,0 +1,7 @@
+-- List, in ascending order, the IDs of all of the 
+-- writers, and, for each, the ISBNs of the books that they have reviewed.
+
+
+select w.wid AS writerid, r.isbn13 AS reviewedbook
+from mccann.writer w LEFT OUTER JOIN mccann.review r on (w.wid = r.rid)
+ORDER BY writerid ASC;

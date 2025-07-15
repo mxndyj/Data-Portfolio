@@ -1,0 +1,8 @@
+-- What are the surnames of the writers who have at least one 
+-- of their books available as a PDF? Display each name only once, and in alphabetical order.
+
+select DISTINCT w.surname 
+from  mccann.writer w join mccann.authorship a ON (w.wid = a.aid) 
+join mccann.encoding e ON (a.isbn13 = e.isbn13)
+where e.format = 'PDF' 
+ORDER BY w.surname;

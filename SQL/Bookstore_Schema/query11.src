@@ -1,0 +1,7 @@
+-- What are the names of the publishers 
+-- of the books written by book authors who are also reviewers?
+
+select distinct p.name
+from mccann.publisher p
+join mccann.book b on (b.pid=p.pid) join mccann.authorship a on (a.isbn13=b.isbn13)
+join mccann.review r on (r.rid=a.aid);

@@ -1,0 +1,8 @@
+-- What is the title and price per page of the book with the largest price per page? 
+-- Your result must consist of a single tuple.
+
+select title, (price/pages) AS ppp
+from mccann.book
+where (price/pages) = (
+    SELECT MAX(price/pages) 
+    FROM mccann.book);

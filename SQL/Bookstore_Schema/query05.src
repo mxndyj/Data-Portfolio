@@ -1,0 +1,9 @@
+-- (You must use nested selects for this query, instead of join.) 
+-- What are the titles of the ebooks encoded in azw3?
+
+select title  
+from mccann.book 
+where isbn13 IN ( 
+    select isbn13 
+    from mccann.encoding 
+    where format = 'azw3');

@@ -1,0 +1,17 @@
+-- What are the IDs of the reviewers who have reviewed all of Chousky’s books?
+
+
+select DISTINCT r.rid
+from mccann.review r
+where NOT EXISTS (
+    -- Find all books written by Chousky
+    select b.isbn13
+    from mccann.book b join mccann.authorship a ON (b.isbn13 = a.isbn13)
+    join mccann.writer w ON (a.aid = w.wid)
+    where w.surname = 'Chousky'
+    MINUS
+    -- Find books reviewed by this reviewer
+    select r2.isbn13 
+    from mccann.review r2
+    where r2.rid = r.rid);
+

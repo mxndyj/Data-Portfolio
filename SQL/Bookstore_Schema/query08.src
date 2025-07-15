@@ -1,0 +1,11 @@
+-- What are the full names of the writers who 
+-- have written one or more ebooks as a coauthor?
+
+
+select DISTINCT w.givenname, w.surname
+from mccann.writer w join mccann.authorship a ON w.wid = a.aid
+where a.isbn13 IN (
+    select isbn13 
+    from mccann.authorship 
+    GROUP BY isbn13 
+    HAVING COUNT(aid) > 1);

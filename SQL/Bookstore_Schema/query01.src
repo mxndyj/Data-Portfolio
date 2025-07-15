@@ -1,0 +1,4 @@
+--What are the names of the publishers?
+
+select name from mccann.publisher;
+
