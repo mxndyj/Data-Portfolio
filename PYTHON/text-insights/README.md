@@ -1,8 +1,8 @@
-# Text_Analyzer
-This is designed to read a text file provided by the user and analyze various 
-characteristics of the words in the file, such as their sizes, capitalization, frequency, 
-and punctuation usage. It then converts this information into a visual bar graph using the 
-graphics library.
+# Text Insights
+ A Python tool for word‑level statistics & visualization.
+# Why this matters
+
+Text Insights helps you quickly gauge writing style, readability, emphasis, and punctuation habits by turning any .txt into a bar‑chart infographic.
 
 # Features
 Here's how the program works:
@@ -23,6 +23,13 @@ Punctuation: A bar for punctuated and non-punctuated words.
 The most frequently used words in each category (small, medium, and large) are displayed along with the number of times they appear in parentheses.
 
 User Interaction: The program prompts the user to enter the name of the text file they want to analyze. After providing the file name, the program displays the infographic and keeps it open for interactive visualization.
+
+
+# Data Analysis Features
+
+* Data cleaning: stripping punctuation, normalizing words
+* Aggregation: counting unique occurrences, finding maxima
+* Visualization: mapping counts to bar heights
 
 # How to use
 
